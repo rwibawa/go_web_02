@@ -63,3 +63,6 @@ fabric.properties
 
 # *.iml
 # modules.xml
+
+# dep
+vendor/

@@ -20,6 +20,9 @@
 #  name = "github.com/x/y"
 #  version = "2.4.0"
 
+[metadata.heroku]
+  root-package = "github.com/rwibawa/go_web_02"
+  go-version = "go1.9"
 
 [[constraint]]
   name = "github.com/codegangsta/negroni"

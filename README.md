@@ -9,6 +9,11 @@ $ cd $GOPATH/src/github.com/rwibawa/go_web_01
 $ dep init
 $ dep status
 $ dep ensure
+
+$ vi Gopkg.toml
+[metadata.heroku]
+  root-package = "github.com/rwibawa/go_web_02"
+  go-version = "go1.9"
 ```
 
 ## 2. web app

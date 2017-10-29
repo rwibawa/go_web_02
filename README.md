@@ -5,7 +5,8 @@ Heroku web app in golang.
 ```bash
 $ brew install dep
 
-$ cd $GOPATH/src/github.com/rwibawa/go_web_01
+$ mkdir $GOPATH/src/github.com/rwibawa/go_web_02
+$ cd $GOPATH/src/github.com/rwibawa/go_web_02
 $ dep init
 $ dep status
 $ dep ensure
@@ -40,4 +41,4 @@ $ heroku open
 $ heroku logs
 ```
 
-
+Open [https://go-web-02.herokuapp.com/some/page/ryan](https://go-web-02.herokuapp.com/some/page/ryan)

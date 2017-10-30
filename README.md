@@ -17,6 +17,8 @@ $ vi Gopkg.toml
   go-version = "go1.9"
 ```
 
+Refer to [heroku go buildpack](https://github.com/heroku/heroku-buildpack-go)
+
 ## 2. web app
 ```bash
 $ export PORT=8098
